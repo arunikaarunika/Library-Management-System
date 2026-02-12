@@ -17,4 +17,4 @@ Author_code  Number(5) NOT NULL,
 Book_Cost  Number(8,2) NOT NULL);
 
 CONSTRAINT fk_Ac FOREIGN KEY ( Author_code )
-        REFERENCES Author_table ( Author_code )
+        REFERENCES Author_table ( Author_code );
